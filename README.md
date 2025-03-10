@@ -2,11 +2,11 @@
 
 ## Usage
 
-| Flag    | Default    | Description                                      |
-|---------|------------|--------------------------------------------------|
-| -h      | —          | Show help                                        |
-| -in     | *required* | Input file with mathematical expressions         |
-| -out    | `out.txt`  | Output file for results                          |
+| Flag    | Default    | Description                 |
+|---------|------------|-----------------------------|
+| -h      | —          | Show help                   |
+| -in     | *required* | Path to the input data file |
+| -out    | `out.txt`  | Path to the output file     |
 
 ```console
 # Default output

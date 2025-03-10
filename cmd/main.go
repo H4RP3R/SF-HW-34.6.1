@@ -28,8 +28,8 @@ var (
 func main() {
 	var inputPath string
 	var outputPath string
-	flag.StringVar(&inputPath, "in", "", "Specify the file with data to be processed")
-	flag.StringVar(&outputPath, "out", "out.txt", "Specify the path to the file to write the result to")
+	flag.StringVar(&inputPath, "in", "", "Path to the input data file")
+	flag.StringVar(&outputPath, "out", "out.txt", "Path to the output file")
 	flag.Parse()
 
 	if len(inputPath) == 0 {
